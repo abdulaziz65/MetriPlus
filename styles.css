@@ -1,0 +1,208 @@
+@font-face {
+    font-family: SoDo Sans;
+    src: url(font/Sodo\ Family/SoDoSans-Bold.otf);
+  }
+@font-face {
+    font-family: Blackout midnight;
+    src: url(font/Blackout\ Midnight.ttf);
+  }
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100vw;
+    max-width: 411px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    height: 3339px;
+    /* border: 1px solid black; */
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.main-wrapper{
+    width: 100%;
+    height: 3179px;
+    background-color: #d5e9e2;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.header{
+    position: relative;
+    height: 158px;
+}
+.robo-image1{
+    position: absolute;
+    top: -48px;
+    left: -600.64px;
+}
+.logo{
+    position: absolute;
+    top: 100px;
+    left: 168px;
+}
+.dog-image{
+    position: absolute;
+    top: 36.88px; 
+    right: 0;
+}
+.info-area{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-area .title-text{
+    max-width: 311px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+.title-text h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: SoDo Sans;
+}
+.cup1{
+    position: relative;
+    left: -13.33px;
+    transform-origin: left;
+}
+.gallery{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-con{
+    width: 206px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-item{
+    width: 100%;
+    height: 146px;
+    margin: 15px 0;
+}
+.portrait{
+    width: 146px;
+    height: 206px;
+}
+.gallery-item img{
+    width: 100%;
+    height: 100%;
+}
+
+.robo-2{
+    position: absolute;
+    top: 381.59px;
+    left: -85.83px;
+}
+h6{
+    margin: 0;
+}
+.top-measure{
+    transform: rotate(90deg);
+    position: absolute;
+    left: 140px;
+    top: 730px;
+    margin: 0;
+    font-family: Blackout midnight;
+    font-size: 15px;
+}
+
+.mid-measure{
+    transform: rotate(90deg);
+    position: absolute;
+    left: 150px;
+    bottom: 860px;
+    margin: 0;
+    font-family: Blackout midnight;
+    font-size: 15px;
+}
+.bottom-measure{
+    transform: rotate(90deg);
+    position: absolute;
+    left: 185px;
+    bottom: 95px;
+    margin: 0;
+    font-family: Blackout midnight;
+    font-size: 15px;
+}
+
+
+.below-text{
+    margin-top: 122px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 555px;
+    z-index: 1;
+}
+.text-con{
+    margin: 48px 0;
+    width: 82.94%;
+    text-align: center;
+    font-size: 14;
+    font-family: SoDo Sans;
+}
+.text-con p{
+    text-align: center;
+    font-size: 14;
+    font-family: SoDo Sans;
+}
+.cat{
+    position: relative;
+    top: -30px;
+    z-index: 0;
+}
+.cup-2{
+    position: absolute;
+    right: -15px;
+    top: 1574.9px;
+    transform-origin: right;
+}
+.below-items{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.btn-scroll-up{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+.btn-scroll{
+    background: transparent;
+    outline: none;
+    border: none;
+}
+.footer-items{
+    width: 100%;
+    height: 110px;
+    position: relative;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 40px 0;
+}
+.footer-credits{
+    width: 100%;
+    text-align: center;
+}
+.footer-credits h5{
+    font-size: 7px;
+    margin: 10px 0;
+    font-family: SoDo Sans;
+}
